@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdminExpress Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <!-- Sección izquierda: Marca (Oculta en móviles) -->
+        <div class="brand-section">
+            <h1>AdminExpress</h1>
+        </div>
+
+        <!-- Sección derecha: Formulario -->
+        <div class="form-section">
+            <div class="form-header">
+                <h2>Let's <strong>Sign In</strong> 👋</h2>
+                <p>Hey, Enter your details to get sign in<br>to your account</p>
+            </div>
+
+            <form>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter Email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter Password" required>
+                </div>
+
+                <div class="forgot-password">
+                    <a href="#">Forgot password?</a>
+                </div>
+
+                <button type="submit" class="btn-signin">Sign In</button>
+            </form>
+
+            <div class="signup-link">
+                <p>Don't have an account? <a href="#">Sign Up</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
